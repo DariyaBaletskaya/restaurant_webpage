@@ -17,7 +17,7 @@
     }
 
     main {
-        height: 60vh;
+        height: 70vh;
     }
 
     .main-header {
@@ -34,15 +34,14 @@
         flex-wrap: wrap; 
     }
 
-    
-
     .meal-description {
         flex-basis: 100%;
         padding: 3%;
+        text-align: center;
     }
 
-    .meal-text {
-        text-align: center;
+    .meal-title {
+        text-align: left;
     }
 
     .right {
