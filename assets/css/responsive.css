@@ -9,7 +9,11 @@
    
     .menu {
         flex-wrap: wrap;
+    }
+    .menu-item {
+        width: 100%;
         text-align: center;
+        margin: 0;
     }
 
     main {
@@ -30,9 +34,7 @@
         flex-wrap: wrap; 
     }
 
-    .menu-item {
-        width: 100%;
-    }
+    
 
     .meal-description {
         flex-basis: 100%;
