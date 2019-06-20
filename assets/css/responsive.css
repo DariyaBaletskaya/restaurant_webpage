@@ -1,0 +1,59 @@
+@media(max-width: 980px){
+    .meal-img {
+        width: 100%;
+        margin: 5%;
+    }
+}
+
+@media(max-width: 750px){
+   
+    .menu {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main {
+        height: 60vh;
+    }
+
+    .main-header {
+        font-size: 2rem;
+    }
+
+    .main-btn {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 15rem;
+    }
+
+    article {
+        flex-wrap: wrap; 
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .meal-description {
+        flex-basis: 100%;
+        padding: 3%;
+    }
+
+    .meal-text {
+        text-align: center;
+    }
+
+    .right {
+        order: 1;
+    }
+
+    .left {
+        order: 2;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        overflow: hidden;
+        font-size: 0.7rem;
+    }
+}

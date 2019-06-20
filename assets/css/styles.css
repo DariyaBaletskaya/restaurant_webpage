@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+
+
+/** Fonts **/
+@font-face {
+    font-family: 'Proxima Nova'; 
+    font-weight: 400;
+    src: url('../fonts/ProximaNova-Semibold.ttf'); 
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    font-weight: 300;
+    src: url('../fonts/Roboto-light.ttf'); 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/** Header styles **/
+.vignette {
+    width: 100%;
+    display: inline-block;
+    
+    -webkit-box-shadow: inset 0px 100px 85px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 100px 85px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 100px 85px rgba(0,0,0,0.5);
+    line-height: 0; 
+}
+
+.header-bg {
+    width: 100%;
+    position: relative; 
+	z-index: -2;  
+}
+
+.inst-img {
+    
+   display: inline-block;
+}
+
+.inst-logo {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 10px;
+    top:10px;
+
+    width: 100px;
+    color: #ffffff;
+    
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.38px;
+    line-height: 2;
+}
+
+/** Menu styles **/
+.menu {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 20px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu-item a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    color: #555559;
+    text-decoration: none;
+}
+
+/** Main section styles **/
+main {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fbfafa;
+
+}
+
+.main-header {
+    width: 60%;
+    margin-top: 2%;
+    color: #555559;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8rem;
+    letter-spacing: -2.24px;
+}
+
+.main-btn {
+    display: inline-block;
+    margin-top: 6%;
+
+    width: 19.3rem;
+    border-radius: 6px;
+    background-color: #286782;
+    color: #fff;
+
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: -0.8px;
+}
+
+.main-btn:hover {
+    background-color: #286782c5;
+}
+
+/**Meals' section styles**/
+
+article {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: left;
+    flex-basis: 50%;
+}
+
+.meal-title {
+    width: 100%;
+    margin-left: 25%;
+    color: #555559;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -1.5px;
+}
+
+.meal-text {
+    width: 65%;
+    color: #555559;
+
+    margin-top: 3%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 23.97px;
+    letter-spacing: 0.2px;
+}
+
+.meal-img{
+    flex-basis: 50%;
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 2;
+}
+
+/* Footer styles **/
+footer {
+    width: 100%;
+    height: 76px;
+    padding: 15px;
+    border: 2px solid #e9e9e9;
+    background-color: #efefef;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #555559;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+}
+
